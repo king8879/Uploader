@@ -1,0 +1,39 @@
+{
+    "name": "𝐓𝐞𝐱𝐭 Uploader vikas  ™",
+    "description": "Download videos from various websites using this telegram bot",
+    "logo": "https://envs.sh/srE.jpg",
+    "keywords": [
+        "text-video",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/hackercoder24/updatetxt2vid",
+    "success_url": "https://telegram.me/diljalechatsherebot",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "18579024",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "124981da628d86e21ee492da77cd4037",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "7994904406:AAEmKvtbSe4b3UINDxWQqqnq3GE-puYpuv8",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "https://github.com/amivin/aria2-heroku.git"
+        },
+        {
+            "url": "heroku/python"
+        },       
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+    }
